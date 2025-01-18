@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://kartikchindarkar01:muaraK6k5jM8so36@finedine-cluster-1.jd5r7.mongodb.net/?retryWrites=true&w=majority&appName=finedine-cluster-1
+      database: fineDineDB
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 10MB
+      max-request-size: 10MB

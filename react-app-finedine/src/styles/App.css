@@ -1,0 +1,156 @@
+/* footer {
+    position: fixed;
+    bottom: 5%;
+    width: 100%;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .data-area-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly
+  }
+  
+  .navbarButton {
+    color: #fff !important;
+    padding: .5rem 1rem !important;
+  }
+  
+  .navbarStyle {
+    padding: .5rem 1rem !important;
+  }
+  
+  .table-responsive {
+    max-height: 39rem !important;
+  }
+  
+  .tableColumn {
+    word-break: break-all
+  }
+  
+  .todo-form {
+    width: 60%;
+  }
+  
+  .todo-list {
+    width: 60%;
+  }
+  
+  .todo-label {
+    font-size: large;
+    margin-right: 22%;
+    margin-left: 3%;
+  }
+  
+  .todo-view-btn {
+    float: right;
+  }
+  
+  .iconText {
+    margin: 0 .5rem;
+  }
+  
+  .profileButton {
+    margin: .5rem .5rem;
+  } */
+
+  /* App.css */
+
+/* Footer */
+footer {
+  position: fixed;
+  bottom: 5%;
+  width: 100%;
+}
+
+/* App Container */
+.App {
+  text-align: center;
+}
+
+/* Data Area Div */
+.data-area-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* Navbar Button */
+.navbarButton {
+  color: #fff !important;
+  padding: 0.5rem 1rem !important;
+}
+
+/* Navbar Style */
+.navbarStyle {
+  padding: 0.5rem 1rem !important;
+}
+
+/* Table Responsive */
+.table-responsive {
+  max-height: 39rem !important;
+}
+
+/* Table Column */
+.tableColumn {
+  word-break: break-all;
+}
+
+/* Todo Form */
+.todo-form {
+  width: 60%;
+}
+
+/* Todo List */
+.todo-list {
+  width: 60%;
+}
+
+/* Todo Label */
+.todo-label {
+  font-size: large;
+  margin-right: 22%;
+  margin-left: 3%;
+}
+
+/* Todo View Button */
+.todo-view-btn {
+  float: right;
+}
+
+/* Icon Text */
+.iconText {
+  margin: 0 0.5rem;
+}
+
+/* Profile Button */
+.profileButton {
+  margin: 0.5rem 0.5rem;
+}
+
+/* Additional Styles for Navbar Alignment */
+
+/* Adjust alignment of logo and FineDine text */
+.navbarStyle .logo-container {
+  display: flex;
+  align-items: center; /* Vertically align logo and text */
+}
+
+.navbarStyle .location-container {
+  display: flex;
+  align-items: center; /* Vertically align location icon and text */
+}
+
+.navbarStyle .location-text {
+  margin-left: -10px; /* Move California slightly left */
+}
+
+/* Remove any extra margin/padding below Stage component */
+.stage-container {
+  margin-bottom: 0 !important; /* Remove bottom margin from stage component */
+}
